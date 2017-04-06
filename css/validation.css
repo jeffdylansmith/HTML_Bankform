@@ -1,0 +1,22 @@
+/*Paste the banking form HTML into your document. */
+input {
+	border-color:none;
+	box-shadow:none;
+}
+
+/*When a valid web URL or email address is entered 
+into the corresponding field, the color of the field should be green.*/
+input:valid {
+    border-color: green;
+    box-shadow: 0 0 5px;
+} 
+
+/*If the value is invalid, the color should be red.*/
+input:invalid {
+	border-color:red;
+	box-shadow: 0 0 5px;
+}
+
+/*selector:pseudo-class {
+    property:value;
+}*/
