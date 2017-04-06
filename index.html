@@ -1,0 +1,94 @@
+<!--Build a form that accepts a loan application. It must have the following fields.-->
+<!doctype html>
+    <head>
+    <!--  <link type="stylesheet" href="css/main.css"> -->  
+    <link rel="stylesheet" type="text/css" href="css/main.css">  
+    </head>
+    <body>
+     <form>
+        <fieldset>
+        <legend>Contact Info</legend>
+    <!--Applicant first name-->
+            First name:
+            <input type="text" name="firstname">
+            <br> 
+    <!--Applicant middle initial-->
+            Middle Initial:
+            <input type="text" name="middleinitial">
+            <br>
+    <!--Applicant last name-->           
+            Last name:
+            <input type="text" name="lastname">
+            <br>
+    <!--Applicant address-->
+            Address:
+            <input type="text" name="address">
+            <br>
+    <!--Applicant email address-->
+            Email:
+            <input type="text" name="email">
+            <br>
+    <!--Applicant telephone number-->
+            Primary Phone:
+            <input type="text" name="phone">
+            <br>
+    <!-- Applicant LinkedIn URL -->
+            LinkedIn:
+            <input type="text" name="linkedin">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Employment</legend>
+    <!--Applicant occupation-->
+            Occupation:
+            <input type="text" name="occupation">
+            <br>
+    <!--Applicant employer-->
+            Current Employer:
+            <input type="text" name="employer">
+            <br>
+    <!--Employer address-->
+            Employer Address:
+            <input type="text" name="employeraddress">
+            <br>     
+        </fieldset>
+        <fieldset>
+        <legend>Load Details</legend>  
+    <!--Type of loan select element with these options: -->
+            Type of Loan: <br>      
+            <select name="typeofloan">
+                <option value="commercial">Commercial</option>
+                <option value="realestate">Real estate</option>
+                <option value="personal">Personal</option>
+                <option value="Mortgage">Mortgage</option>
+            </select>   
+            <br>     
+    <!--Requested amount of loan-->
+            Amount Requested:
+            <input type="text" name="amount">
+            <br>
+    <!--Radio button elements for loan length-->
+            Length of Loan:<br>
+            <input type="radio" name="time" value="5 years">5 years
+            
+            <input type="radio" name="time" value="15 years">15 years
+            
+            <input type="radio" name="time" value="30 years">30 years
+            <br>
+   <!-- Checkbox group for special conditions-->
+            Please select all that apply:
+            <input type="checkbox" name="modifiers" value="downpayment">I have a down payment
+            <br>
+            <input type="checkbox" name="modifiers" value="outofstate">Out-of-state resident
+            <br>
+            <input type="checkbox" name="modifiers" value="married">Married
+            <br>
+            <input type="checkbox" name="modifiers" value="cosigned">Loan will be co-signed
+       </fieldset>   
+    <!--A text area to allow for additional comments-->
+        <fieldset>
+        <legend>Comments:</legend>
+            <textarea name="comments"></textarea>
+        </fieldset>
+   </form>
+</body>   
