@@ -1,9 +1,5 @@
 /*Paste the banking form HTML into your document. */
-input {
-	border-color:none;
-	box-shadow:none;
-}
-
+ 
 /*When a valid web URL or email address is entered 
 into the corresponding field, the color of the field should be green.*/
 input:valid {
