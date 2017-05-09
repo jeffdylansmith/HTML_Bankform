@@ -2,9 +2,9 @@
 <!doctype html>
     <head>
     <!--  <link type="stylesheet" href="css/main.css"> -->  
-    <link rel="stylesheet" type="text/css" href="css/main.css">  
+        <link rel="stylesheet" type="text/css" href="css/validation.css">  
     </head>
-    <body>
+    <body id="wrapper">
      <form>
         <fieldset>
         <legend>Contact Info</legend>
@@ -26,15 +26,15 @@
             <br>
     <!--Applicant email address-->
             Email:
-            <input type="text" name="email">
+            <input type="email" name="email">
             <br>
     <!--Applicant telephone number-->
             Primary Phone:
-            <input type="text" name="phone">
+            <input type="number" name="phone">
             <br>
     <!-- Applicant LinkedIn URL -->
             LinkedIn:
-            <input type="text" name="linkedin">
+            <input type="url" name="linkedin">
             <br>
         </fieldset>
         <fieldset>
@@ -65,7 +65,7 @@
             <br>     
     <!--Requested amount of loan-->
             Amount Requested:
-            <input type="text" name="amount">
+            <input type="number" name="amount">
             <br>
     <!--Radio button elements for loan length-->
             Length of Loan:<br>
@@ -76,7 +76,7 @@
             <input type="radio" name="time" value="30 years">30 years
             <br>
    <!-- Checkbox group for special conditions-->
-            Please select all that apply:
+            Please select all that apply:<br>
             <input type="checkbox" name="modifiers" value="downpayment">I have a down payment
             <br>
             <input type="checkbox" name="modifiers" value="outofstate">Out-of-state resident
